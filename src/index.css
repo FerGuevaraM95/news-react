@@ -14,19 +14,19 @@ body {
     flex-wrap: wrap;
 }
 
-.contenedor-noticias {
+.news-container {
     padding: 2rem;
     border-radius: 1rem;
     margin-top: 3rem;
 }
 
-.buscador {
+.search {
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: left;
 }
 
-.buscador label {
+.search label {
     font-size: 2rem;
     color: black;
 }
@@ -47,6 +47,6 @@ h2 {
     text-align: center;
 }
 
-.enviar input[type="submit"] {
+.send input[type="submit"] {
     width: 100%;
 }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+
 import Header from '../Header';
+import News from '../News';
 
 class App extends Component {
 
@@ -27,10 +29,15 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-          <Header
-            title = 'React News' />
-      </div>
+        <div className="app-container">
+            <Header
+                title = 'React News' />
+            <div className="container white news-container">
+            <News
+                news={this.state.news}
+            />
+            </div>
+        </div>
     );
   }
 }
