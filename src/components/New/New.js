@@ -1,4 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
+const propTypes = {
+    new: PropTypes.shape({
+        urlToImage: PropTypes.string,
+        url: PropTypes.string,
+        title: PropTypes.string,
+        description: PropTypes.string,
+        source: PropTypes.object
+    })
+}
 
 const New = (props) => {
 
@@ -22,5 +33,7 @@ const New = (props) => {
         </div>
     )
 };
+
+New.propTypes = propTypes;
 
 export default New;

@@ -16,8 +16,6 @@ class App extends Component {
 
     getNews = (category = 'general') => {
 
-        console.log(category);
-
         let url = `https://newsapi.org/v2/top-headlines?country=mx&category=${category}&apiKey=ed71b5000a284dab9f366e0dd103b290`;
 
         fetch(url)
