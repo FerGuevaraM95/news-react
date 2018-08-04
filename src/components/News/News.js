@@ -8,7 +8,7 @@ class News extends Component {
             <div className="row">
                 { this.props.news.map(report => (
                     <New
-                        key={report.new}
+                        key={report.url}
                         new={report}
                     />
                 ))}
